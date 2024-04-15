@@ -1,2 +1,2 @@
 # Complete_JS
-This Repo is about Learning Javascript 
+This Repo is all about Learning Javascript 
