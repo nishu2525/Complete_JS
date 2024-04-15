@@ -3,16 +3,15 @@ JavaScript can be used  without html (i.e standalone)
 Previously without HTML it can't be executed.But Now it can be .
 By using node.js
 
- node fileName.js [node folder/fileName.js] 
-If 🗃 File is in Folder 📂 
+ node fileName.js
+If 🗃 File is in Folder 📂  [node folderName/fileName.js] 
 By writting this command in terminal
 
-1.Way to Code Online(GitHub)
+1.Way to Code Online(GitHub- codespace)
 --- i] Create Repo 
 
- -- ii] Go to the code button → codespace create codespace →
-
-(online environment to write your code is open )
+ -- ii] Go to the code button → codespace → create codespace →
+(Its an online environment to write your code, open to all )
 
 -- iii]Now installing Node.js in it
 
@@ -27,15 +26,15 @@ Add dev Container Configuration files
 
 → Node.js & Javascript
 
-(Select all default(
+(Select all default)
 
 → Rebuild NOW
 
 → Create folder /file
 
-Save changes 3rd (GitHub branch)icon (left) → add files
+Save changes  (GitHub branch)icon (4th) (left) → add files
 
-(write message) 
+(write commit message) 
 
 → Click on tripple dots
 →  push
