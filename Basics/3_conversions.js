@@ -27,7 +27,7 @@ let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
-// *********************** Operations ***********************
+// ----------- Operations -----------
 
 let value = 3
 let negValue = -value
@@ -64,7 +64,29 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 ++gameCounter;
-console.log(gameCounter);
+// console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+
+// ---------------- Camparions ---------------------
+
+/*
+While comparing Datatype should be same 
+*/
+console.log(null>0);//false
+console.log(null==0);// false
+console.log(null>=0);// true
+// here null is converted to 0
+//this is due to comparision 
+
+console.log(undefined==0);// false
+// above types of conversions should be avoided bcz this creates confusion
+// Strick check 
+console.log("2"== 2); // true 
+console.log("2"=== 2);// false
+// here in Strick check datatype is also checked 
+
+
+
