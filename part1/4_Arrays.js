@@ -42,13 +42,21 @@ console.log('------');
 
 // More on Arrays Methods 
 // if we do concat or push - to add 2 more arrays its not good practise , use spread operator
-// cars.push(bikes);
-// console.log(cars.push(bikes));// here another array is created inside main array 
-const vehicle =cars.concat(bikes); // concat returs new array and push works on existing array
-//  execute line (47 & 49) or (45 & 46) seperately 
-console.log(vehicle);
+
+
+let Tata = ['Tiago','Tigor','Altroz']
+let bigTata= ['Punch','Nexon','Harrier','Safari']
+// Tata.push(bigTata);
+// console.log(Tata.push(bigTata));// here another array is created inside main array 
+const Tcars =Tata.concat(bigTata); //  concat returs new array and push works on existing array
+// console.log(Tcars);
+//  execute concat and push seperately 
+
 // instead of doing any of above use spread operator 
-// eg. on line {9 & 10} 
+const tatacars =[...Tata,...bigTata]
+console.log(tatacars);
+
+
 console.log('----More on Arrays---');
 
 const a1=[1,2,3,[4,5,6,[7,8,9]]]
