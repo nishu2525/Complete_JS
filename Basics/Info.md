@@ -33,7 +33,7 @@ Add dev Container Configuration files
 → Create folder /file
 
 Save changes  (GitHub branch)icon (4th) (left) → add files
-
+→ To run File  → node folderName/fileName.js 
 (write commit message) 
 
 → Click on tripple dots
