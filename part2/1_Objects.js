@@ -3,8 +3,8 @@
 when we make using literals then it does'nt become singleton                   
 when we make using constructor then it become singleton
 */
-// Object.create  //  constructor Type 
-
+ 
+// const user =new Object() //  constructor Type 
 const user={}  // literals type 
 // In objects there is key :value pairs
 
