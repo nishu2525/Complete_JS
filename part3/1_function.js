@@ -44,3 +44,53 @@ function login(user="Unknown User"){
     return `${user} Just Logged in`
 }
 console.log(login());//Unknown User Just Logged in-- as no value is passed in arguments 
+
+console.log('------------------------------------');
+
+function calculateprice (num1){
+    return num1;
+}
+console.log(calculateprice(200,400,500,5000));//200
+// Now in this case only 200 will be printed , bcz only 1 varibale is there  
+
+// ...  this is also called as rest and spread operator 
+// but to print all values use rest operator ...
+function calculateprices (...num1){
+    return num1;
+}
+console.log(calculateprices(200,400,500,5000)) // [ 200, 400, 500, 5000 ]
+
+function calculate_Prices (val1,val2,...num1){  //If we add any variables with comma then values from starting will be considered inside it and it can't print it
+    return num1;
+}
+console.log(calculate_Prices(200,400,500,5000))// [500, 5000]
+
+console.log("-------------Passing Object in Function-----------------------------------");
+const user={
+    username:"Nishad",
+    id:299
+}
+function handleObj(anyObj){
+    console.log(`Username is ${anyObj.username} and id is ${anyObj.id}`);
+}
+handleObj(user)
+// here instead of Obj-user we can direclty pass an Object
+
+
+handleObj({
+    username:"Vaidu",
+    id:399
+})
+
+
+console.log("-------------Passing Arrays in Function-----------------------------------");
+
+const myArray= [ 200,400,600,500,5000 ]
+
+function returnVal2(getArray){
+    return getArray[1]
+}
+console.log(returnVal2(myArray));//400
+
+// here instead of Array-myArray we can direclty pass an Array
+console.log(returnVal2([ 200,400,600,500,5000 ]));//400
