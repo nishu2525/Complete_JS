@@ -22,7 +22,7 @@ let user={
 }
 
 let usertwo=user;  // Here You get refernce of user 
-usertwo.email="usertwo@gmail.com"
+usertwo.email="usernew@gmail.com"
 
 console.log(user.email);//usertwo@gmail.com
 console.log(usertwo.email); //usertwo@gmail.com
