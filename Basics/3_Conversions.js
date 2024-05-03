@@ -84,8 +84,8 @@ console.log(null>=0);// true
 console.log(undefined==0);// false
 // above types of conversions should be avoided bcz this creates confusion
 // Strick check 
-console.log("2"== 2); // true 
-console.log("2"=== 2);// false
+console.log("5"== 5); // true 
+console.log("5"=== 5);// false
 // here in Strick check datatype is also checked 
 
 
