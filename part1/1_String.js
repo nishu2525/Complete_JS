@@ -3,7 +3,7 @@
  instead of concating string using + try using ``(backtick)
  */
 // type of Strings = Object 
-let firstName="Nishu"
+let firstName="Nish"
 console.log(`My name is ${firstName}`) //  backtick eg:-  // My name is Nishu
 //we can add value with help of ${} in ``
 // if we do
