@@ -44,8 +44,9 @@ console.log(val1);
 
 // Nullish Coalescing operator and ternary operator are 2 differenrt things 
 // terninary operator 
-// condition ? true : false;
+// condition ? statement1 : statement2;
 // Eg.
 const price =100;
-price < 50? console.log("less than 50 "):console.log("More than 50"); 
+price < 50 ? console.log("less than 50 "):console.log("More than 50"); 
+
 
