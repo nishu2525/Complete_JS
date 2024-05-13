@@ -30,18 +30,20 @@ for (let index = 0; index < myarray.length; index++) {
 // Constinue - to skip paticular condition {ek baar maafi de deta hai aur aap aage bad sakte ho}
 
 // Break
+console.log('-----Break keyword----');
+
 for (let index = 0; index <=20; index++) {
     if (index==5) {
-        console.log(`fav No 5 detected`);
+        console.log(`Fav No 5 detected`);
         break;
     }
   console.log(`value of i is ${index}`);
 }
-
+console.log('-----Continue keyword----');
 // Continue 
 for (let index = 0; index <=20; index++) {
     if (index==5) {
-        console.log(`fav No 5 detected`);
+        console.log(`Fav No 5 detected`);
         continue;// loop will continue it will not stop
     }
   console.log(`value of i is ${index}`);
