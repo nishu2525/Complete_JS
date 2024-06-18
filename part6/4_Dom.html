@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: aliceblue;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+</body>
+<script>
+    // Add Element to Document
+         function add(l_name){
+            const li=document.createElement('li');
+            li.innerHTML=`${l_name}`
+            document.querySelector('.language').appendChild(li)
+         }
+         add("React.js")
+
+// In this we do lot of travesing in DOM tree as we go to end --it is less optimize way in more inputs
+         // We can do same thing in optimized way
+// this way saves space and is some-how its smart
+function addlan(l_name){
+    const li= document.createElement('li');
+    li.appendChild(document.createTextNode(l_name))
+    document.querySelector('.language').appendChild(li)
+}
+addlan("React_native")
+addlan("Java")
+
+
+// Edit ELement
+ const seLan=document.querySelector('li:nth-child(2)')
+//  seLan.innerHTML='Fluter';
+
+// Optimised way
+// here we crea ted new elemnet and replaced it with old
+const newli=document.createElement('li')
+newli.textContent="Fluter"
+seLan.replaceWith(newli)
+
+// Another-one method
+const fLan =document.querySelector('li:first-child')
+fLan.outerHTML= '<li>Python</li>'
+
+// Remove Element
+ const llan= document.querySelector('li:last-child')
+llan.remove()
+
+</script>
+</html>
